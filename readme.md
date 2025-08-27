@@ -1,4 +1,4 @@
-# Unix Autostart Config
+# [Unix-Config] Autostart Config
 
 Different branches of this repositories are different autostart configs I use on different machines.
 
