@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=tilix
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_NG]=Tilix
+Name=Tilix
+Comment[en_NG]=Start Tilix Terminal On Startup
+Comment=Start Tilix Terminal On Startup
