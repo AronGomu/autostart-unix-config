@@ -1,4 +1,4 @@
-# [Unix-Config] Autostart Config
+# [Unix-Config] ~/.config/autostart (folder)
 
 Different branches of this repositories are different autostart configs I use on different machines.
 
