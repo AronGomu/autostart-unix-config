@@ -1,0 +1,23 @@
+# Keyboard layout chooser on shell startup
+choose_keyboard_layout() {
+  echo "Choose keyboard layout:"
+  echo "  1) French (fr)"
+  echo "  2) US (us)"
+  read -r -p "Enter choice [1/2]: " choice
+
+  case "$choice" in
+    1)
+      setxkbmap fr,us -option grp:alt_space_toggle
+      echo "Keyboard set to FR (toggle with Alt+Space)"
+      ;;
+    2)
+      setxkbmap us,fr -option grp:alt_space_toggle
+      echo "Keyboard set to US (toggle with Alt+Space)"
+      ;;
+    *)
+      echo "Invalid choice. Keeping current layout."
+      ;;
+  esac
+}
+
+choose_keyboard_layout
