@@ -21,3 +21,4 @@ choose_keyboard_layout() {
 }
 
 choose_keyboard_layout
+xset r rate 200 40
