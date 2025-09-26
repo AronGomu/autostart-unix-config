@@ -17,7 +17,9 @@ First : `sudo apt update && upgrade`
 
 ### Mandatory
 
+```bash
 sudo apt install ripgrep
+```
 
 ### All dependencies for Normal Nvim ubuntu
 ```bash
