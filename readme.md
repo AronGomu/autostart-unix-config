@@ -15,9 +15,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 First : `sudo apt update && upgrade`
 
-### All dependencies for Normal Nvim
+### All dependencies for Normal Nvim ubuntu
 ```bash
-sudo apt update; sudo apt install --install-if-missing "luarocks" "yarn" "rust-fd-find" "python-pytest" "delta" "rust-grcov" "rustup" "gcc-defaults" "binutils" "dotnet8" "monodevelop" "java-common" "nasm" "r-base" "rustc" "golang" "python" "ruby" "perl" "lua5.3" "kotlin" "elixir" "make" "nodejs" "npm" "node-typescript" "nuitka" "doxygen" "yard"; pip install "pyinstaller"; yarn global add "jest" "jsdoc" "typedoc"; cargo install "yazi-fm"; go install "golang.org/x/tools/cmd/godoc@latest"; sudo snap install --classic "flutter"
+sudo apt install -y \
+  luarocks yarn python3-pip fd-find python3-pytest git-delta \
+  gcc binutils default-jdk nasm r-base rustc golang ruby perl \
+  lua5.3 kotlin elixir make nodejs npm doxygen
 ```
 
 
