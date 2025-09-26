@@ -15,6 +15,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 First : `sudo apt update && upgrade`
 
+### Mandatory
+
+sudo apt install ripgrep
+
 ### All dependencies for Normal Nvim ubuntu
 ```bash
 sudo apt install -y \
